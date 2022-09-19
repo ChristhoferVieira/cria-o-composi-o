@@ -9,11 +9,17 @@
  * @author christhofer.vieira
  */
 public class motor {
+
     private int potencia;
 
-    /**
-     * @return the potencia
-     */
+    public motor() {
+        potencia = 1000; //VALOR PADRAO
+    }
+
+    public motor(int potencia) {
+        this.potencia = potencia; //VALOR DEFINIDO POR VOCÊ
+    }
+
     public int getPotencia() {
         return potencia;
     }
