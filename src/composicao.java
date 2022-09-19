@@ -28,7 +28,7 @@ public class composicao {
         motor motor = new motor();
         motor motor2 = new motor(2000);
 
-        carro4.setMotor(motor);
+        carro4.setMotor(motor2);
         
         carro4.ImprimeDados();
     }
